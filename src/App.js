@@ -1,14 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header';
+import Header from '../src/Components/Header';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <Header />
-      {/* Інші компоненти вашого додатку */}
     </div>
   );
-}
+};
 
 export default App;
